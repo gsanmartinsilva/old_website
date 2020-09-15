@@ -1,0 +1,66 @@
+:root {
+    --main-bg-color: #4527a0;
+  }
+
+.portrait {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 1em;
+    }
+
+#Name {
+    text-align: center;
+}
+
+#Job-Position {
+    text-align: center;
+}
+
+.fa-github {color: var(--main-bg-color);}
+.fa-twitter {color: var(--main-bg-color);}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;}
+
+.social {
+    text-align: center;
+}
+
+.fa-github {
+    margin-right: 0.5em;
+}
+
+.hola {
+    display: inline-block;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom: 0.15em solid transparent;
+    float: right;
+    }
+    
+.navbar a:hover {
+    border-bottom: 3px solid var(--main-bg-color);
+    }
+      
+.navbar a.active {
+    border-bottom: 3px solid var(--main-bg-color);
+    }
+
+li a {
+    display: block;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }

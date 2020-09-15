@@ -64,3 +64,14 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     }
+
+.list-of-publications {
+    list-style-type: none;
+    }
+
+.thumbnail {
+    border-radius: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    }

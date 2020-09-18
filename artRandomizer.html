@@ -30,7 +30,7 @@
 
 </head>
 <body>
-
+  <script type="module" src="js/code.js"></script>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
@@ -38,45 +38,35 @@
       <div class="one columns"></div>
       <div class="eleven columns">
         <ul class="navbar">
-          <li style="float:right"><a href="artRandomizer.html" target="_blank">Extra Stuff</a></li>
+          <li style="float:right"><a class="active" href="artRandomizer.html" target="_blank">Extra Stuff</a></li>
           <li style="float:right"><a href="assets/CV_2020.pdf" target="_blank">CV</a></li>
-          <li style="float:right"><a class="active" href="reserach.html">Research</a></li>
+          <li style="float:right"><a href="reserach.html">Research</a></li>
           <li style="float:right"><a href="index.html">Home</a></li>
         </ul>
       </div>
     </div>
 
+
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 10%">
-        <h4>My Research</h4>
-        <p>Under construction...</p>
+      <div class="twelve column" style="margin-top: 10%">
+        <h4>Art Randomizer</h4>
+        <p>Refresh the page and get a random image from the Art Institute of Chicago!</p>
       </div>
     </div>
   <!-- Start of one paper/project
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
-      <div class="one-half column" style="margin-top: 5%; margin-left: 5%;">
-        <h5>Title</h5>
-        <p>Authors</p>
-        <p>Abstract/Summary</p>
-        <p>link</p>
+      <div class="twelve column" style="margin-top: 5%; margin-left: 5%;">
+        <h5 id="title"></h5>
+        <p id="artistName"></p>
+        <img src="" alt="  Patience!" id="artImage">
+        <p id="description"></p>
+        
       </div>
     </div>
   <!-- End of one paper/project
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- Start of one paper/project
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="row">
-    <div class="one-half column" style="margin-top: 5%; margin-left: 5%;">
-      <h5>Title</h5>
-      <p>Authors</p>
-      <p>Abstract/Summary</p>
-      <p>link</p>
-    </div>
-  </div>
-<!-- End of one paper/project
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
   </div>
 
 <!-- End Document
